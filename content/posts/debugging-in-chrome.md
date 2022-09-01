@@ -1,7 +1,9 @@
 ---
 title: 'Debugging in Chrome'
 date: 2022-09-01T18:38:52+05:30
-draft: true
+draft: false
+tags:
+  - debuggging
 ---
 
 How to debug in chrome? Most obvious answer will be `console.log`.
