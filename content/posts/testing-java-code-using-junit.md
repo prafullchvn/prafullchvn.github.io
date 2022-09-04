@@ -1,7 +1,7 @@
 ---
 title: 'Testing Java Code Using Junit'
 date: 2022-09-04T11:37:32+05:30
-draft: true
+draft: false
 tags:
   - java
 ---
