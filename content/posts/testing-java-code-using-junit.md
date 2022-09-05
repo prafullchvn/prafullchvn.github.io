@@ -1,7 +1,7 @@
 ---
 title: 'Testing Java Code Using Junit'
 date: 2022-09-04T11:37:32+05:30
-draft: false
+draft: true
 tags:
   - java
 ---
@@ -97,6 +97,10 @@ Here
 - `-jar "lib/junit-platform-console-standalone-1.9.0.jar"` is used to tell which junit package to execute.
 - `-cp "out/test:out/src"` is used to tell where can it find test class files and src class files.
 - `-p "com.tw.step.date"` is used to tell package to it should look for.
+
+### Executing two packages simultaneously
+
+In case where if
 
 ## Points to Rembember
 
