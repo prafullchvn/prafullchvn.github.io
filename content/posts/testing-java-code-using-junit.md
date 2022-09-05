@@ -1,10 +1,32 @@
 ---
 title: 'Testing Java Code Using Junit'
 date: 2022-09-04T11:37:32+05:30
-draft: true
+draft: false
 tags:
   - java
 ---
+
+## Conecpts
+
+**Container**
+
+A node in test tree that contains other tests or container
+
+**Test**
+
+A method in test tree that checks the assertion.
+
+**Life Cycle methods**
+
+Methods which are executed at particular moment of execution of tree node. Generall they are marked using `@BeforeEach`, `@AfterEach`, `@BeforeAll` and `@AfterAll`.
+
+**Test Class**
+
+Any top-level class, static member class or nested class that contains at least one method i.e. container. Test classes must not be abstract and must have a single constructor.
+
+**Test Method**
+
+Any method that is annoted with `@Test`, `@RepeatedTest`, `@ParameterizedTest`, `@TestFactory` or `@TestTemplate`. Except `@Test`, other groups tests, in case of `@TestFactory` it creates container.
 
 ## Directory structure
 
@@ -13,15 +35,7 @@ For this article, I am goint to follow the following directory structure.
 ```sh
 ├── out
 │   ├── src
-│   │   └── com
-│   │       └── tw
-│   │           └── step
-│   │               └── date
 │   └── test
-│       └── com
-│           └── tw
-│               └── step
-│                   └── date
 ├── src
 │   └── com
 │       └── tw
@@ -36,9 +50,9 @@ For this article, I am goint to follow the following directory structure.
 
 ## Writing test
 
-As given above, we are going to have same structure in test directory as well.
+As given above, we are going to have same structure in test directory as we have in src directory.
 
-We need to import static assert function from Assertions. We need to mark the function as test using annotation provided in junit.
+To run the tests, we need to import static `assertEquals` function from Assertions. We need to mark the function as test using annotation `@Test` provided in junit.
 
 ```java
 package com.tw.step.date;
@@ -59,12 +73,9 @@ class DateTest{
 }
 ```
 
-Here we used assertEquls funciton for assertion from library `org.junit.jupiter.api.Assertions.assertEquals`.
-Test is annotation class which is being used to mark `getNoOfDaysInJanuary` as test function.
-
 ## Compiling test
 
-To compile the test we need to do tell somethings to `javac` command.
+To compile the test we need to do tell somethings to `javac` command. Those are
 
 1. `sourcepath` of test
 2. `classpath` of junit library and src
@@ -100,7 +111,25 @@ Here
 
 ### Executing two packages simultaneously
 
-In case where if
+In case where if there are two packages that need to be compied then you can compile them by adding path of file in `javac` command adding there dependency in `classpath` as well.
+
+```sh
+javac -sourcepath test -cp "lib/junit-package.jar:lib/someotherdependency.jar:out/src" -d out/test test/com/tw/step/package1/FileTest.java test/com/tw/step/package2/FileTest.java
+```
+
+Using find command
+
+```sh
+find test -name "*.java" -exec javac -sourcepath test -cp "lib/junit-platform-console-standalone-1.9.0.jar:lib/date.jar:out/src" -d out/test {} \;
+```
+
+To execute, use same command by adding necessary dependency in `classpath`.
+
+```sh
+java -jar junit-package.jar -cp "out/test:out/src" -p com
+```
+
+Here it searches all files with package starting with `com`.
 
 ## Points to Rembember
 
@@ -114,3 +143,5 @@ In case where if
 [Junit Docs](https://search.maven.org/artifact/org.junit.platform/junit-platform-console-standalone/1.9.0/jar)
 
 [Junit console launcher docs](https://search.maven.org/artifact/org.junit.platform/junit-platform-console-standalone/1.9.0/jar)
+
+[Assertions](https://junit.org/junit5/docs/5.0.1/api/org/junit/jupiter/api/Assertions.html)
