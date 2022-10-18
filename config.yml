@@ -6,19 +6,19 @@ params:
   comments: true
   ShowShareButtons: true
   ShowCodeCopyButtons: true
-  profileMode:
-    enabled: true
-    title: "Prafull's blog" # optional default will be site title
-    subtitle: 'Read about tech and life on my blog'
-    imageUrl: 'https://avatars.githubusercontent.com/u/99485204?v=4' # optional
-    imageTitle: 'My Image' # optional
-    imageWidth: 120 # custom size
-    imageHeight: 120 # custom size
-    buttons:
-      # - name: Archive
-      #   url: '/archive'
-      - name: Github
-        url: 'https://github.com/prafullchvn'
+  # profileMode:
+  #   enabled: true
+  #   title: "Prafull's blog" # optional default will be site title
+  #   subtitle: 'Read about tech and life on my blog'
+  #   imageUrl: 'https://avatars.githubusercontent.com/u/99485204?v=4' # optional
+  #   imageTitle: 'My Image' # optional
+  #   imageWidth: 120 # custom size
+  #   imageHeight: 120 # custom size
+  #   buttons:
+  #     # - name: Archive
+  #     #   url: '/archive'
+  #     - name: Github
+  #       url: 'https://github.com/prafullchvn'
 
   socialIcons: # optional
     - name: 'Twitter'
