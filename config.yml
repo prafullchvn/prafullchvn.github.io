@@ -3,6 +3,7 @@ languageCode: en-us
 title: Welcome to Prafull's blog
 theme: paperMod
 params:
+  comments: true
   ShowShareButtons: true
   ShowCodeCopyButtons: true
   profileMode:
@@ -36,3 +37,4 @@ languages:
       main:
         - name: Posts
           url: /posts
+disqusShortname: prafullchvn-github-io-1
