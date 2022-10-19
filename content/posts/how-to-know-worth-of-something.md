@@ -1,7 +1,9 @@
 ---
 title: 'How to Know Worth of Something'
 date: 2022-09-10T17:00:35+05:30
-draft: true
+draft: false
+tags:
+  - life
 ---
 
 # Why something is there?
