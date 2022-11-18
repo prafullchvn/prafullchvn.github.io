@@ -1,5 +1,5 @@
 ---
-title: 'Codepush'
+title: 'Codepush Setup for Android'
 date: 2022-11-17T10:50:21+05:30
 draft: false
 tags:
