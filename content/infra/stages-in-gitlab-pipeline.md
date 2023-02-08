@@ -21,3 +21,5 @@ This field is used to configure when that particular job must run. We can give f
 - `on_failure` : run when at least one job have failed in prior stage.
 - `delayed` : delay the execution of job for specific period of time.
 - `never` : never run the job.
+
+# `depedency`
