@@ -1,7 +1,7 @@
 ---
 title: 'Terraform State File'
 date: 2023-02-17T08:32:10+05:30
-draft: true
+draft: false
 ---
 
 Terraform stores the state of real world resource created in file called terraform state file.
