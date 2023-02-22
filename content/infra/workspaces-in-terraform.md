@@ -38,7 +38,7 @@ variable "instance_type" {
 }
 ```
 
-Here instance_type is selected based on workspace which is currently active. In order to select that we are using lookup function. For more on lookup function refer to link given in reference.
+Here instance_type is selected based on workspace which is currently active. In order to select that we are using lookup function. For more on lookup function refer to link given in reference. Using the workspacesk creates different tfstate files which are stored in directory `terraform.tfstate.d` inside that separate directory for each environment.
 
 # Reference to function
 
