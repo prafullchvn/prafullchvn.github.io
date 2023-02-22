@@ -44,3 +44,19 @@ resource "some-random-rs" {
   property = local.variable
 }
 ```
+
+# Referencing child module outputs
+
+You can define the output block in module, which can be accessed in code using terraform module.
+
+Syntax
+
+```
+module.<module_name>.<output_name>
+```
+
+example
+
+```
+moduel.dns_zone.name_servers
+```
