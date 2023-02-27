@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>react on Welcome to Prafull&#39;s blog</title>
+    <link>http://prafullchvn.github.io/tags/react/</link>
+    <description>Recent content in react on Welcome to Prafull&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Oct 2022 16:56:43 +0530</lastBuildDate><atom:link href="http://prafullchvn.github.io/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mistakes Done While Using Usestate Hook</title>
+      <link>http://prafullchvn.github.io/posts/mistakes-done-while-using-usestate-hook/</link>
+      <pubDate>Wed, 19 Oct 2022 16:56:43 +0530</pubDate>
+      
+      <guid>http://prafullchvn.github.io/posts/mistakes-done-while-using-usestate-hook/</guid>
+      <description>Mistakes while using non primitve state Same reference problem When state is of non primitive type then comparison is done based on reference. So even if value is changed but reference is same then it won&amp;rsquo;t execute the render the component again. To avoid this create copy of the state the pass it to setter of state.
+To avoid this
+In case of object, you can create copy by using spread operator for unchanged part of state and then putting changed part to be merged with it.</description>
+    </item>
+    
+  </channel>
+</rss>

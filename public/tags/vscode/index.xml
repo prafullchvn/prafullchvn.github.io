@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>vscode on Welcome to Prafull&#39;s blog</title>
+    <link>http://prafullchvn.github.io/tags/vscode/</link>
+    <description>Recent content in vscode on Welcome to Prafull&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Oct 2022 12:38:08 +0530</lastBuildDate><atom:link href="http://prafullchvn.github.io/tags/vscode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Refactoring variable or keyword in Vscode</title>
+      <link>http://prafullchvn.github.io/posts/refactoring-var-name-in-vscode/</link>
+      <pubDate>Tue, 25 Oct 2022 12:38:08 +0530</pubDate>
+      
+      <guid>http://prafullchvn.github.io/posts/refactoring-var-name-in-vscode/</guid>
+      <description>To refactor the variable name in particular file in vscode.
+Take cursor to the variable name and press f2 to change name. To see the priview where all the change will be applied press shift + f2.
+Refactoring something which is not the variable name
+Press command + shift + f2 Expanding the drop down you will get an option to replace. If you wanna skip some file, then you can hover over file and press cross in front of that file to skip that file from being changed.</description>
+    </item>
+    
+  </channel>
+</rss>
