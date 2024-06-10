@@ -1,488 +1,348 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Welcome to Prafull&#39;s blog</title>
-    <link>http://prafullchvn.github.io/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content on Welcome to Prafull&#39;s blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 26 Feb 2023 17:19:46 +0530</lastBuildDate><atom:link href="http://prafullchvn.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 09 Jun 2024 20:44:31 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Docker Basics</title>
-      <link>http://prafullchvn.github.io/infra/docker-basics/</link>
-      <pubDate>Sun, 26 Feb 2023 17:19:46 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/infra/docker-basics/</guid>
-      <description>Docker is prime examle of platform which provides containerisation. There are mainy instances through which we can implement the containers but docker is one of the most popular to do so.
-Docker architecture </description>
+      <title>Multi architecture management in Colima</title>
+      <link>http://localhost:1313/posts/docker/multi-arch-build-using-colima/</link>
+      <pubDate>Sun, 09 Jun 2024 20:44:31 +0530</pubDate>
+      <guid>http://localhost:1313/posts/docker/multi-arch-build-using-colima/</guid>
+      <description>Multi-profiles management One of the most exciting Colima features is instances management. To do so, Colima is using profiles.&#xA;To create an instance with a profile name, add the -p flag to the command line. For example, colima start -p funny_profile will create a default instance withfunny_profileas profile name.colima start -p intel -a x86_64 -c 1will start an intel instance with 1 CPU using theintelname.&#xA;You can retrieve your current profiles by running colima list.</description>
     </item>
-    
     <item>
-      <title>Resource Acronyms in K8</title>
-      <link>http://prafullchvn.github.io/infra/resource-acronyms-in-k8/</link>
-      <pubDate>Fri, 24 Feb 2023 15:56:17 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/infra/resource-acronyms-in-k8/</guid>
-      <description> acronym resource po pods svc services ns namespaces rs resplicaset dp deployments sts stateful set ds daemon set </description>
+      <title>Multi architecture management in Colima</title>
+      <link>http://localhost:1313/posts/infrastructure-and-devops/building-arch64-images/</link>
+      <pubDate>Sun, 09 Jun 2024 20:44:31 +0530</pubDate>
+      <guid>http://localhost:1313/posts/infrastructure-and-devops/building-arch64-images/</guid>
+      <description>Multi-profiles management One of the most exciting Colima features is instances management. To do so, Colima is using profiles.&#xA;To create an instance with a profile name, add the -p flag to the command line. For example, colima start -p funny_profile will create a default instance withfunny_profileas profile name.colima start -p intel -a x86_64 -c 1will start an intel instance with 1 CPU using theintelname.&#xA;You can retrieve your current profiles by running colima list.</description>
     </item>
-    
     <item>
-      <title>K9s Shortcuts</title>
-      <link>http://prafullchvn.github.io/infra/k9s-shortcuts/</link>
-      <pubDate>Fri, 24 Feb 2023 15:29:34 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/infra/k9s-shortcuts/</guid>
-      <description>Shortcuts Description Syntax To view all the resources of particular type :&amp;lt;reource-type&amp;gt; To search through resources /&amp;lt;regex&amp;gt; To view &amp;amp; switch all ctx :ctx To switch to antother context :ctx &amp;lt;ctx-name&amp;gt; To switch to antother context :ctx &amp;lt;ctx-name&amp;gt; To describe resource Press d To edit resource Press e To view logs resource Press l To view all namespaces :ns To delete resource ctrl + d To kill resource ctrl + k Toggel wide column ctrl + w To view resources in error mode ctrl + z To view resources in xray mode :xray &amp;lt;resource-type&amp;gt; &amp;lt;namespace&amp;gt; </description>
+      <title>Security concepts using springboot</title>
+      <link>http://localhost:1313/posts/springboot/security_concepts_using_springboot/</link>
+      <pubDate>Tue, 02 Apr 2024 16:25:46 +0530</pubDate>
+      <guid>http://localhost:1313/posts/springboot/security_concepts_using_springboot/</guid>
+      <description>Security Concepts using Spring Boot There are many ways to secure your application using spring boot. Some of the ways are as follows:&#xA;Basic Authentication &amp;amp; Authorization OAuth2 JWT CORS &amp;amp; CSRF Basic Authentication &amp;amp; Authorization Basic Authentication is the simplest way to secure your application. It is based on the username and password. It is not recommended to use this in production as it is not secure. But it is good to use in development environment.</description>
     </item>
-    
     <item>
-      <title>Intro to Helm</title>
-      <link>http://prafullchvn.github.io/infra/intro-to-helm/</link>
-      <pubDate>Fri, 24 Feb 2023 09:05:31 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/infra/intro-to-helm/</guid>
-      <description>Helm acts like package manager for kubernetes. Kubernetes at its core doesn&amp;rsquo;t care about application as whole. It just cares that all the deployment told to it are up and running. But for us creating those resources one by one and applying them is tedious job especially in case of application with various resources such as ConfigMap, Secretes, Services etc.
-Suppose you have to create resources for wordpress
-helm install wordpress</description>
+      <title>Springboot and Kafka</title>
+      <link>http://localhost:1313/posts/springboot/springboot-and-kafka/</link>
+      <pubDate>Sat, 03 Feb 2024 08:33:43 +0530</pubDate>
+      <guid>http://localhost:1313/posts/springboot/springboot-and-kafka/</guid>
+      <description>As part of this article, we will see how to integrate Kafka with Springboot. You should at least know basics of Springboot and Kafka concepts.&#xA;Let&amp;rsquo;s start with what is kafka.&#xA;Kafka is event streaming platform. It is used for building real-time data pipelines and streaming applications. It is horizontally scalable, fault-tolerant, and extremely fast. It is used for building real-time data pipelines and streaming applications. It is horizontally scalable, fault-tolerant, and extremely fast.</description>
     </item>
-    
     <item>
-      <title>Workspaces in Terraform</title>
-      <link>http://prafullchvn.github.io/infra/workspaces-in-terraform/</link>
-      <pubDate>Wed, 22 Feb 2023 16:17:28 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/infra/workspaces-in-terraform/</guid>
-      <description>Workspaces in terraform gives us freedom to have same infrastructure for different environment with different values.
-You can interact with workspaces in terraform using following commands
-For help
-terraform workspace -h
-To view all workspaces
-terraform workspace show
-To select workspace
-terraform workspace select Using variables based on Environment resource &amp;#34;aws_instance&amp;#34; &amp;#34;myec2&amp;#34;{ ami = &amp;#34;something random&amp;#34; instance_type = lookup(var.instance_type,terraform.workspace) } variable &amp;#34;instance_type&amp;#34; { type = &amp;#34;map&amp;#34; default = { default = &amp;#39;t2.</description>
-    </item>
-    
-    <item>
-      <title>Modules in Terraform</title>
-      <link>http://prafullchvn.github.io/infra/modules-in-terraform/</link>
-      <pubDate>Wed, 22 Feb 2023 08:34:41 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/infra/modules-in-terraform/</guid>
-      <description>You can reuse the block of terraform configuration code used to create part of infrastructure instead of writing new one. This will initialise that module in your current project.
-Syntax -
-module &amp;#34;name-of-module&amp;#34; { source = &amp;#34;path/to/module&amp;#34; } While initialising project using terraform init this will download the module.
-Using the variables in module In order to make the module more flexible you can parameterise the values of configuration.
-Syntax -</description>
-    </item>
-    
-    <item>
-      <title>Resource Dependencies in Terraform</title>
-      <link>http://prafullchvn.github.io/infra/implicit-and-explicit-dependency-in-terraform/</link>
-      <pubDate>Wed, 22 Feb 2023 08:33:07 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/infra/implicit-and-explicit-dependency-in-terraform/</guid>
-      <description>Have you ever wondered how does Terraform knows the order in which to create the resources? When we provision the infra one resource might have depedency on other for e.g. if we have create some resource on azure we need to create resource group first for it and then create the resource under that resource group.
-Terraform uses this dependency information to determine the correct order in which to create the different resources.</description>
-    </item>
-    
-    <item>
-      <title>Attributes and Output Values</title>
-      <link>http://prafullchvn.github.io/infra/attributes-and-output-values/</link>
-      <pubDate>Fri, 17 Feb 2023 08:57:30 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/infra/attributes-and-output-values/</guid>
-      <description>TF have capabilities to output the values of resources once they are applied. You can do that using outout block. You can use the attributes that is being created to create other resources.
-E.g.
-resource &amp;#34;azurerm_resource_group&amp;#34; &amp;#34;example&amp;#34; { name = &amp;#34;example-resources&amp;#34; location = &amp;#34;West Europe&amp;#34; } resource &amp;#34;azurerm_dns_zone&amp;#34; &amp;#34;example&amp;#34; { name = &amp;#34;mydomain.com&amp;#34; resource_group_name = azurerm_resource_group.example.name } Here as you can see, first resource group is being created then inside that resource group a DNS zone is being created.</description>
-    </item>
-    
-    <item>
-      <title>Desired State and Current State</title>
-      <link>http://prafullchvn.github.io/infra/desired-state-and-current-state/</link>
-      <pubDate>Fri, 17 Feb 2023 08:45:49 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/infra/desired-state-and-current-state/</guid>
-      <description>Desired state One of the primary funciton of Terraform is to create real world resource that is described in Terraform Configuration file.
-Current state This is state of currently running resource.
-Terraform tries to match the desired state mensioned in TF configuration file. So if any property that is mensioned in TF state file is manually changed, TF will try to change it to match the desired state. Note: If some property that is not mensioned in TF configuration is changed then TF won&amp;rsquo;t try to change it because it is not configured in configuratio file.</description>
-    </item>
-    
-    <item>
-      <title>Terraform State File</title>
-      <link>http://prafullchvn.github.io/infra/tf-state-file/</link>
-      <pubDate>Fri, 17 Feb 2023 08:32:10 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/infra/tf-state-file/</guid>
-      <description>Terraform stores the state of real world resource created in file called terraform state file. Whenever trying to create the resource it terraform fetches cross checks it against state file. Before doing that it fetches the states from real world i.e. it refreshes the state. It contains the information about all the live resources. It contains all the informtion about the live running resource.</description>
-    </item>
-    
-    <item>
-      <title>Authenticate With Gitlab in Tf</title>
-      <link>http://prafullchvn.github.io/infra/authenticate-with-gitlab-in-tf/</link>
-      <pubDate>Fri, 17 Feb 2023 08:23:58 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/infra/authenticate-with-gitlab-in-tf/</guid>
-      <description>How to authenticate with gitlab for fetching module To authenticate with GitLab in Terraform and fetch a module from a GitLab repository, you can use a personal access token. Here are the general steps:
-Generate a personal access token: In GitLab, go to your user settings and generate a personal access token with the &amp;ldquo;api&amp;rdquo; scope. Take note of the token value, as you won&amp;rsquo;t be able to see it again.</description>
-    </item>
-    
-    <item>
-      <title>Provider in Tf</title>
-      <link>http://prafullchvn.github.io/infra/provider-in-tf/</link>
-      <pubDate>Fri, 17 Feb 2023 08:19:09 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/infra/provider-in-tf/</guid>
-      <description>TF Provider Plugins to interact with various cloud vendors. Available in TF registry Provider configuration It is generally stored in root directory of module.
-These configuration are global to all files.
-provider &amp;#34;name-of-provider&amp;#34; { # config required by provider lias = &amp;#34;some-alias&amp;#34; vaersion = &amp;#34;~&amp;gt;3.0&amp;#34; } These provider need to be declared in required_provider block of terraform block.
-terraform { required_providers { mycloud = { source = &amp;#34;mycorp/mycloud&amp;#34; version = &amp;#34;~&amp;gt;1.</description>
-    </item>
-    
-    <item>
-      <title>Nodeport Service in K8</title>
-      <link>http://prafullchvn.github.io/infra/nodeport-service-in-k8/</link>
-      <pubDate>Wed, 08 Feb 2023 15:51:55 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/infra/nodeport-service-in-k8/</guid>
-      <description>Here to demonstrate the use of nodeport service we will create some nginx pod and nodeport service to access it.
-Deployment file apiVersion: apps/v1 kind: Deployment metadata: name: nginx-deployment labels: app: nginx spec: replicas: 3 selector: matchLabels: app: testing template: metadata: labels: app: testing for: nodeport-svc spec: containers: - name: nginx image: nginx:1.14.2 ports: - containerPort: 80 Here we are creating 3 pods with nginx running inside of it. We have exposed port 80 of container.</description>
-    </item>
-    
-    <item>
-      <title>Functions in Gitlab</title>
-      <link>http://prafullchvn.github.io/infra/functions-in-gitlab/</link>
-      <pubDate>Wed, 08 Feb 2023 10:41:29 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/infra/functions-in-gitlab/</guid>
-      <description>setup.yml image: alpine .setup: script: - echo &amp;#34;in setup action&amp;#34; - echo &amp;#34;ending setup action&amp;#34; .teardown: script: - echo &amp;#34;in teardown action&amp;#34; - echo &amp;#34;ending teardown action&amp;#34; use of it setup.yml include: - setup.yml test: script: - echo &amp;#34;before running setup - !reference [.setup, script] - !reference [.teardown, script] </description>
-    </item>
-    
-    <item>
-      <title>Stages in Gitlab Pipeline</title>
-      <link>http://prafullchvn.github.io/infra/stages-in-gitlab-pipeline/</link>
-      <pubDate>Wed, 08 Feb 2023 09:58:26 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/infra/stages-in-gitlab-pipeline/</guid>
-      <description>allow_failure If value to this stage is set to
-true : even if that job fails then rest of the pipeline will continue. false : then pipeline will fail &amp;amp; will be marked as failed. when This field is used to configure when that particular job must run. We can give following values to this field
-on_success : run when all jobs in prior stage have succed. manual : run when someone manually triggers it.</description>
-    </item>
-    
-    <item>
-      <title>Yaml in Kubernetes</title>
-      <link>http://prafullchvn.github.io/infra/yaml-in-kubernetes/</link>
-      <pubDate>Mon, 06 Feb 2023 15:43:13 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/infra/yaml-in-kubernetes/</guid>
-      <description>Fields in kubernetes Example :
-apiVersion: v1 kind: Pod metadata: name: pod-demo labels: pod-name: yaml-in-k8-tutorial spec: containers: - name: nginx-container image: nginx apiVersion - String Depending on what type of resource you are trying to create apiVersion will change.
-Syntax Description POD v1 Service v1 Replica Set app/v1 Deployment app/v1 How to choose apiVersion if there are two options available:
-Latest Compatiblity Depedency kind - String It is type of resource that we are trying to create.</description>
-    </item>
-    
-    <item>
-      <title>Kubernetes References</title>
-      <link>http://prafullchvn.github.io/posts/kubernetes-references/</link>
-      <pubDate>Fri, 13 Jan 2023 16:45:36 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/posts/kubernetes-references/</guid>
-      <description>Kubernetes working https://www.ibm.com/topics/kubernetes
-Docker vs Kubernetes https://www.atlassian.com/microservices/microservices-architecture/kubernetes-vs-docker
-https://azure.microsoft.com/en-in/solutions/kubernetes-vs-docker/#:~:text=Kubernetes%20is%20open%2Dsource%20orchestration,containers%2C%20deployed%20across%20multiple%20servers.
-Kubernetes Namespace https://www.vmware.com/topics/glossary/content/kubernetes-namespace.html#:~:text=Namespaces%20are%20a%20way%20to,to%20communicate%20with%20each%20other.
-Kubectl https://kubernetes.io/docs/reference/kubectl/#in-cluster-authentication-and-namespace-overrides</description>
-    </item>
-    
-    <item>
-      <title>Docker References</title>
-      <link>http://prafullchvn.github.io/posts/docker-references/</link>
-      <pubDate>Thu, 12 Jan 2023 17:28:43 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/posts/docker-references/</guid>
-      <description>What are layers in docker image? https://www.howtogeek.com/devops/what-are-docker-image-layers/#:~:text=What%20are%20Layers%3F,don&#39;t%20affect%20the%20filesystem.
-Ways of communication between docker cli and docker api Docker overview https://docs.docker.com/get-started/overview/#:~:text=The%20Docker%20client%20and%20daemon%20communicate%20using%20a%20REST%20API,of%20a%20set%20of%20containers.
-Docker cheetsheat https://collabnix.com/docker-cheatsheet/
-Docker tag https://www.baeldung.com/ops/docker-tag#:~:text=The%20Docker%20tag%20helps%20maintain,similar%20to%20a%20specific%20commit.</description>
-    </item>
-    
-    <item>
-      <title>Codepush Setup for Android</title>
-      <link>http://prafullchvn.github.io/posts/codepush/</link>
-      <pubDate>Thu, 17 Nov 2022 10:50:21 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/posts/codepush/</guid>
-      <description>Codepush is feature that allows to make changes in code on live application.
-Codepush is microsoft solution to update code. Only JS code (in case of React Native). Fastest way to apply quick changes Codepush supports React Native. In Case of react native, using codepush we can make changes in JS code only. Setting up Codepush
-In order to implement there are 4 broader steps.
-Create app on app center. Implement SDK in project.</description>
-    </item>
-    
-    <item>
-      <title>Destraction Quote</title>
-      <link>http://prafullchvn.github.io/posts/destraction-quote/</link>
-      <pubDate>Tue, 25 Oct 2022 16:38:16 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/posts/destraction-quote/</guid>
-      <description>Distaction at its core is just confusion about what matters.</description>
-    </item>
-    
-    <item>
-      <title>Refactoring variable or keyword in Vscode</title>
-      <link>http://prafullchvn.github.io/posts/refactoring-var-name-in-vscode/</link>
-      <pubDate>Tue, 25 Oct 2022 12:38:08 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/posts/refactoring-var-name-in-vscode/</guid>
-      <description>To refactor the variable name in particular file in vscode.
-Take cursor to the variable name and press f2 to change name. To see the priview where all the change will be applied press shift + f2.
-Refactoring something which is not the variable name
-Press command + shift + f2 Expanding the drop down you will get an option to replace. If you wanna skip some file, then you can hover over file and press cross in front of that file to skip that file from being changed.</description>
-    </item>
-    
-    <item>
-      <title>Testing in React Native Project</title>
-      <link>http://prafullchvn.github.io/posts/testing-in-react-native-project/</link>
-      <pubDate>Fri, 21 Oct 2022 08:33:45 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/posts/testing-in-react-native-project/</guid>
-      <description>Setup npm install --save-dev @testing-library/react-native --legacy-peer-deps Jest function Syntax -
-expecte(actual).______; // where _____ you can put building method to assert further Jest Api functions General functions expect(value).toEqual(someOtherValue); expect(value).toStrictEqual(someOtherValue); expect(value).toMatch(/someRegex/); expect(someObject).toMatchObject(subsetOfObject); expect(value).toBeTruth(); expect(value).toBeFalsy(); expect(value).toBeDefined(); expect(value).toBeUndefined(); expect(value).toBeNull(); expect(value).toBeNaN(); Based on assertion made expect.assertions(3); // ensures that 3 assertion have been made in test expect.hasAssertions(); // ensures that test have at least one assertion Asserting the array You can check whether array have particular value or not.</description>
-    </item>
-    
-    <item>
-      <title>Altriusm Quote by Dalai Lama</title>
-      <link>http://prafullchvn.github.io/posts/altriusm-quote-by-dalai-lama/</link>
-      <pubDate>Thu, 20 Oct 2022 09:32:28 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/posts/altriusm-quote-by-dalai-lama/</guid>
-      <description>“Idealistic as it may sound, altruism should be the driving force in business, not just competition and a desire for wealth.”
-&amp;ndash; Dalai Lama</description>
-    </item>
-    
-    <item>
-      <title>Mistakes Done While Using Usestate Hook</title>
-      <link>http://prafullchvn.github.io/posts/mistakes-done-while-using-usestate-hook/</link>
-      <pubDate>Wed, 19 Oct 2022 16:56:43 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/posts/mistakes-done-while-using-usestate-hook/</guid>
-      <description>Mistakes while using non primitve state Same reference problem When state is of non primitive type then comparison is done based on reference. So even if value is changed but reference is same then it won&amp;rsquo;t execute the render the component again. To avoid this create copy of the state the pass it to setter of state.
-To avoid this
-In case of object, you can create copy by using spread operator for unchanged part of state and then putting changed part to be merged with it.</description>
-    </item>
-    
-    <item>
-      <title>Useeffect Hook in React</title>
-      <link>http://prafullchvn.github.io/posts/useeffect-hook-in-react/</link>
-      <pubDate>Wed, 19 Oct 2022 16:31:43 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/posts/useeffect-hook-in-react/</guid>
-      <description>useEffect hook in react native is one of the very useful and most used hook, (at least for me it is ;) ). There are various versions of useEffect hook that I am going to talk about in this blog.
-Without dependency Following version of useEffect runs the callback each time the component that it is used in is rendered.
-Syntax -
-useEffect(() =&amp;gt; { /** * some code here */ }); With dependency Following version of useEffect is executed each time depedency is changes.</description>
-    </item>
-    
-    <item>
-      <title>Problems while setting Up React Native developer environment</title>
-      <link>http://prafullchvn.github.io/posts/setting-up-react-native-env/</link>
-      <pubDate>Tue, 18 Oct 2022 18:21:01 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/posts/setting-up-react-native-env/</guid>
-      <description>Build failed. Failed to execute the installDebug command in android. This problem happens mainly when your virtual device is running less on memory and is trying to install new build but failing because of insufficient storage.
-To solve this -
-Uninstall the previous build and try running build again. Wipe the data of virtual device You can do this by going to virtual device manager. Then Click vertical ellipsis symbol. Click on option to wipe data.</description>
-    </item>
-    
-    <item>
-      <title>Things to Know When Programming in Oop</title>
-      <link>http://prafullchvn.github.io/posts/things-to-know-when-programming-in-oop/</link>
-      <pubDate>Fri, 16 Sep 2022 08:52:59 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/posts/things-to-know-when-programming-in-oop/</guid>
-      <description>Things to keep in mind Read the problem statement correctly
-Think in the domain
-Use constants instead of magic numbers
-Avoid using primitives
-Law of demeter ( don&amp;rsquo;t talk to friends of friends )
-Avoid using static methods
-Tell don&amp;rsquo;t ask rule
-Structuring tests i.e. arrangement, action and assertion (3A rule)
-Have richer exceptions i.e. capture data in the exceptions. Suffix exception classes with Exception
-Use this to invoke method in a method if it is taking argument of the same type</description>
-    </item>
-    
-    <item>
-      <title>Multithreading in Java</title>
-      <link>http://prafullchvn.github.io/posts/multithreading-in-java/</link>
-      <pubDate>Tue, 13 Sep 2022 14:07:57 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/posts/multithreading-in-java/</guid>
-      <description>References Concurrency
-Higher Level Concurrency Object</description>
-    </item>
-    
-    <item>
-      <title>Exception in Java</title>
-      <link>http://prafullchvn.github.io/posts/exception-in-java/</link>
-      <pubDate>Tue, 13 Sep 2022 09:03:42 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/posts/exception-in-java/</guid>
-      <description>Catch or Specify Requirement Types of Exeception Checked Exception E.g. Reading file whose path is given by user. Requires Catch or Specify Requirement.
-Unchecked Exception Don&amp;rsquo;t requires Catch or Specify Requirement. Indication of bug present in application. If application throw this kind of exception then application logic should be changed in such way that it doesn&amp;rsquo;t cause exception. These are internal to application and application can not anticipate or recover from.</description>
-    </item>
-    
-    <item>
-      <title>Collection Data Structure</title>
-      <link>http://prafullchvn.github.io/posts/collection-data-structure/</link>
-      <pubDate>Sat, 10 Sep 2022 17:04:31 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/posts/collection-data-structure/</guid>
-      <description>Hierarchy Interface </description>
-    </item>
-    
-    <item>
-      <title>How to Know Worth of Something</title>
-      <link>http://prafullchvn.github.io/posts/how-to-know-worth-of-something/</link>
-      <pubDate>Sat, 10 Sep 2022 17:00:35 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/posts/how-to-know-worth-of-something/</guid>
-      <description>Why something is there? Thinking about why something exist, what is need of that thing gives great insights into why something is needed.
-What would happen if somethign is there? This question tells about importance of that thing. What role does it play. Human nature is like it doesn&amp;rsquo;t know value of something until it is not there.</description>
-    </item>
-    
-    <item>
-      <title>Interfaces in Java</title>
-      <link>http://prafullchvn.github.io/posts/interfaces-in-java/</link>
-      <pubDate>Wed, 07 Sep 2022 12:39:26 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/posts/interfaces-in-java/</guid>
-      <description>In java, whenever you pass some value to some function, the type of value that you pass to that function defines the contract. As long as your the values satisfies the contract you are good to go.
-Interface is good example of it. Interaface can be created to enforce some contract.
-Let&amp;rsquo;s take example of payment using some payment instrument like credit card, debit card or net banking.
-What contract these all should satisfy so that amount can withdrawn from these.</description>
-    </item>
-    
-    <item>
-      <title>Abstract Class and Methods</title>
-      <link>http://prafullchvn.github.io/posts/abstract-class-and-methods/</link>
-      <pubDate>Wed, 07 Sep 2022 09:14:13 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/posts/abstract-class-and-methods/</guid>
+      <title>Volumes in Docker</title>
+      <link>http://localhost:1313/posts/infrastructure-and-devops/volumes-in-docker/</link>
+      <pubDate>Mon, 27 Feb 2023 08:58:46 +0530</pubDate>
+      <guid>http://localhost:1313/posts/infrastructure-and-devops/volumes-in-docker/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>Docker Basics</title>
+      <link>http://localhost:1313/posts/infrastructure-and-devops/docker-basics/</link>
+      <pubDate>Sun, 26 Feb 2023 17:19:46 +0530</pubDate>
+      <guid>http://localhost:1313/posts/infrastructure-and-devops/docker-basics/</guid>
+      <description>Docker is prime examle of platform which provides containerisation. There are mainy instances through which we can implement the containers but docker is one of the most popular to do so.&#xA;Docker architecture As you can see in picture, there are two main parts to the docker&#xA;docker CLI docker server We launch container, check their logs using docker CLI which in turns contacts docker server. Docker server is where docker daemon is running.</description>
+    </item>
+    <item>
+      <title>Resource Acronyms in K8</title>
+      <link>http://localhost:1313/posts/infrastructure-and-devops/resource-acronyms-in-k8/</link>
+      <pubDate>Fri, 24 Feb 2023 15:56:17 +0530</pubDate>
+      <guid>http://localhost:1313/posts/infrastructure-and-devops/resource-acronyms-in-k8/</guid>
+      <description> acronym resource po pods svc services ns namespaces rs resplicaset dp deployments sts stateful set ds daemon set </description>
+    </item>
+    <item>
+      <title>K9s Shortcuts</title>
+      <link>http://localhost:1313/posts/infrastructure-and-devops/k9s-shortcuts/</link>
+      <pubDate>Fri, 24 Feb 2023 15:29:34 +0530</pubDate>
+      <guid>http://localhost:1313/posts/infrastructure-and-devops/k9s-shortcuts/</guid>
+      <description>Shortcuts Description Syntax To view all the resources of particular type :&amp;lt;reource-type&amp;gt; To search through resources /&amp;lt;regex&amp;gt; To view &amp;amp; switch all ctx :ctx To switch to antother context :ctx &amp;lt;ctx-name&amp;gt; To switch to antother context :ctx &amp;lt;ctx-name&amp;gt; To describe resource Press d To edit resource Press e To view logs resource Press l To view all namespaces :ns To delete resource ctrl + d To kill resource ctrl + k Toggel wide column ctrl + w To view resources in error mode ctrl + z To view resources in xray mode :xray &amp;lt;resource-type&amp;gt; &amp;lt;namespace&amp;gt; </description>
+    </item>
+    <item>
+      <title>Intro to Helm</title>
+      <link>http://localhost:1313/posts/infrastructure-and-devops/intro-to-helm/</link>
+      <pubDate>Fri, 24 Feb 2023 09:05:31 +0530</pubDate>
+      <guid>http://localhost:1313/posts/infrastructure-and-devops/intro-to-helm/</guid>
+      <description>Helm acts like package manager for kubernetes. Kubernetes at its core doesn&amp;rsquo;t care about application as whole. It just cares that all the deployment told to it are up and running. But for us creating those resources one by one and applying them is tedious job especially in case of application with various resources such as ConfigMap, Secretes, Services etc.&#xA;Suppose you have to create resources for wordpress&#xA;helm install wordpress</description>
+    </item>
+    <item>
+      <title>Workspaces in Terraform</title>
+      <link>http://localhost:1313/posts/infrastructure-and-devops/workspaces-in-terraform/</link>
+      <pubDate>Wed, 22 Feb 2023 16:17:28 +0530</pubDate>
+      <guid>http://localhost:1313/posts/infrastructure-and-devops/workspaces-in-terraform/</guid>
+      <description>Workspaces in terraform gives us freedom to have same infrastructure for different environment with different values.&#xA;You can interact with workspaces in terraform using following commands&#xA;For help&#xA;terraform workspace -h&#xA;To view all workspaces&#xA;terraform workspace show&#xA;To select workspace&#xA;terraform workspace select Using variables based on Environment resource &amp;#34;aws_instance&amp;#34; &amp;#34;myec2&amp;#34;{ ami = &amp;#34;something random&amp;#34; instance_type = lookup(var.instance_type,terraform.workspace) } variable &amp;#34;instance_type&amp;#34; { type = &amp;#34;map&amp;#34; default = { default = &amp;#39;t2.</description>
+    </item>
+    <item>
+      <title>Modules in Terraform</title>
+      <link>http://localhost:1313/posts/infrastructure-and-devops/modules-in-terraform/</link>
+      <pubDate>Wed, 22 Feb 2023 08:34:41 +0530</pubDate>
+      <guid>http://localhost:1313/posts/infrastructure-and-devops/modules-in-terraform/</guid>
+      <description>You can reuse the block of terraform configuration code used to create part of infrastructure instead of writing new one. This will initialise that module in your current project.&#xA;Syntax -&#xA;module &amp;#34;name-of-module&amp;#34; { source = &amp;#34;path/to/module&amp;#34; } While initialising project using terraform init this will download the module.&#xA;Using the variables in module In order to make the module more flexible you can parameterise the values of configuration.&#xA;Syntax -</description>
+    </item>
+    <item>
+      <title>Resource Dependencies in Terraform</title>
+      <link>http://localhost:1313/posts/infrastructure-and-devops/implicit-and-explicit-dependency-in-terraform/</link>
+      <pubDate>Wed, 22 Feb 2023 08:33:07 +0530</pubDate>
+      <guid>http://localhost:1313/posts/infrastructure-and-devops/implicit-and-explicit-dependency-in-terraform/</guid>
+      <description>Have you ever wondered how does Terraform knows the order in which to create the resources? When we provision the infra one resource might have depedency on other for e.g. if we have create some resource on azure we need to create resource group first for it and then create the resource under that resource group.&#xA;Terraform uses this dependency information to determine the correct order in which to create the different resources.</description>
+    </item>
+    <item>
+      <title>Attributes and Output Values</title>
+      <link>http://localhost:1313/posts/infrastructure-and-devops/attributes-and-output-values/</link>
+      <pubDate>Fri, 17 Feb 2023 08:57:30 +0530</pubDate>
+      <guid>http://localhost:1313/posts/infrastructure-and-devops/attributes-and-output-values/</guid>
+      <description>TF have capabilities to output the values of resources once they are applied. You can do that using outout block. You can use the attributes that is being created to create other resources.&#xA;E.g.&#xA;resource &amp;#34;azurerm_resource_group&amp;#34; &amp;#34;example&amp;#34; { name = &amp;#34;example-resources&amp;#34; location = &amp;#34;West Europe&amp;#34; } resource &amp;#34;azurerm_dns_zone&amp;#34; &amp;#34;example&amp;#34; { name = &amp;#34;mydomain.com&amp;#34; resource_group_name = azurerm_resource_group.example.name } Here as you can see, first resource group is being created then inside that resource group a DNS zone is being created.</description>
+    </item>
+    <item>
+      <title>Desired State and Current State</title>
+      <link>http://localhost:1313/posts/infrastructure-and-devops/desired-state-and-current-state/</link>
+      <pubDate>Fri, 17 Feb 2023 08:45:49 +0530</pubDate>
+      <guid>http://localhost:1313/posts/infrastructure-and-devops/desired-state-and-current-state/</guid>
+      <description>Desired state One of the primary funciton of Terraform is to create real world resource that is described in Terraform Configuration file.&#xA;Current state This is state of currently running resource.&#xA;Terraform tries to match the desired state mensioned in TF configuration file. So if any property that is mensioned in TF state file is manually changed, TF will try to change it to match the desired state. Note: If some property that is not mensioned in TF configuration is changed then TF won&amp;rsquo;t try to change it because it is not configured in configuratio file.</description>
+    </item>
+    <item>
+      <title>Terraform State File</title>
+      <link>http://localhost:1313/posts/infrastructure-and-devops/tf-state-file/</link>
+      <pubDate>Fri, 17 Feb 2023 08:32:10 +0530</pubDate>
+      <guid>http://localhost:1313/posts/infrastructure-and-devops/tf-state-file/</guid>
+      <description>Terraform stores the state of real world resource created in file called terraform state file. Whenever trying to create the resource it terraform fetches cross checks it against state file. Before doing that it fetches the states from real world i.e. it refreshes the state. It contains the information about all the live resources. It contains all the informtion about the live running resource.</description>
+    </item>
+    <item>
+      <title>Authenticate With Gitlab in Tf</title>
+      <link>http://localhost:1313/posts/infrastructure-and-devops/authenticate-with-gitlab-in-tf/</link>
+      <pubDate>Fri, 17 Feb 2023 08:23:58 +0530</pubDate>
+      <guid>http://localhost:1313/posts/infrastructure-and-devops/authenticate-with-gitlab-in-tf/</guid>
+      <description>How to authenticate with gitlab for fetching module To authenticate with GitLab in Terraform and fetch a module from a GitLab repository, you can use a personal access token. Here are the general steps:&#xA;Generate a personal access token: In GitLab, go to your user settings and generate a personal access token with the &amp;ldquo;api&amp;rdquo; scope. Take note of the token value, as you won&amp;rsquo;t be able to see it again.</description>
+    </item>
+    <item>
+      <title>Provider in Tf</title>
+      <link>http://localhost:1313/posts/infrastructure-and-devops/provider-in-tf/</link>
+      <pubDate>Fri, 17 Feb 2023 08:19:09 +0530</pubDate>
+      <guid>http://localhost:1313/posts/infrastructure-and-devops/provider-in-tf/</guid>
+      <description>TF Provider Plugins to interact with various cloud vendors. Available in TF registry Provider configuration It is generally stored in root directory of module.&#xA;These configuration are global to all files.&#xA;provider &amp;#34;name-of-provider&amp;#34; { # config required by provider lias = &amp;#34;some-alias&amp;#34; vaersion = &amp;#34;~&amp;gt;3.0&amp;#34; } These provider need to be declared in required_provider block of terraform block.&#xA;terraform { required_providers { mycloud = { source = &amp;#34;mycorp/mycloud&amp;#34; version = &amp;#34;~&amp;gt;1.</description>
+    </item>
+    <item>
+      <title>Nodeport Service in K8</title>
+      <link>http://localhost:1313/posts/infrastructure-and-devops/nodeport-service-in-k8/</link>
+      <pubDate>Wed, 08 Feb 2023 15:51:55 +0530</pubDate>
+      <guid>http://localhost:1313/posts/infrastructure-and-devops/nodeport-service-in-k8/</guid>
+      <description>Here to demonstrate the use of nodeport service we will create some nginx pod and nodeport service to access it.&#xA;Deployment file apiVersion: apps/v1 kind: Deployment metadata: name: nginx-deployment labels: app: nginx spec: replicas: 3 selector: matchLabels: app: testing template: metadata: labels: app: testing for: nodeport-svc spec: containers: - name: nginx image: nginx:1.14.2 ports: - containerPort: 80 Here we are creating 3 pods with nginx running inside of it. We have exposed port 80 of container.</description>
+    </item>
+    <item>
+      <title>Functions in Gitlab</title>
+      <link>http://localhost:1313/posts/infrastructure-and-devops/functions-in-gitlab/</link>
+      <pubDate>Wed, 08 Feb 2023 10:41:29 +0530</pubDate>
+      <guid>http://localhost:1313/posts/infrastructure-and-devops/functions-in-gitlab/</guid>
+      <description>setup.yml image: alpine .setup: script: - echo &amp;#34;in setup action&amp;#34; - echo &amp;#34;ending setup action&amp;#34; .teardown: script: - echo &amp;#34;in teardown action&amp;#34; - echo &amp;#34;ending teardown action&amp;#34; use of it setup.yml include: - setup.yml test: script: - echo &amp;#34;before running setup - !reference [.setup, script] - !reference [.teardown, script] </description>
+    </item>
+    <item>
+      <title>Stages in Gitlab Pipeline</title>
+      <link>http://localhost:1313/posts/infrastructure-and-devops/stages-in-gitlab-pipeline/</link>
+      <pubDate>Wed, 08 Feb 2023 09:58:26 +0530</pubDate>
+      <guid>http://localhost:1313/posts/infrastructure-and-devops/stages-in-gitlab-pipeline/</guid>
+      <description>allow_failure If value to this stage is set to&#xA;true : even if that job fails then rest of the pipeline will continue. false : then pipeline will fail &amp;amp; will be marked as failed. when This field is used to configure when that particular job must run. We can give following values to this field&#xA;on_success : run when all jobs in prior stage have succed. manual : run when someone manually triggers it.</description>
+    </item>
+    <item>
+      <title>Yaml in Kubernetes</title>
+      <link>http://localhost:1313/posts/infrastructure-and-devops/yaml-in-kubernetes/</link>
+      <pubDate>Mon, 06 Feb 2023 15:43:13 +0530</pubDate>
+      <guid>http://localhost:1313/posts/infrastructure-and-devops/yaml-in-kubernetes/</guid>
+      <description>Fields in kubernetes Example :&#xA;apiVersion: v1 kind: Pod metadata: name: pod-demo labels: pod-name: yaml-in-k8-tutorial spec: containers: - name: nginx-container image: nginx apiVersion - String Depending on what type of resource you are trying to create apiVersion will change.&#xA;Syntax Description POD v1 Service v1 Replica Set app/v1 Deployment app/v1 How to choose apiVersion if there are two options available:&#xA;Latest Compatiblity Depedency kind - String It is type of resource that we are trying to create.</description>
+    </item>
+    <item>
+      <title>Kubernetes References</title>
+      <link>http://localhost:1313/posts/posts/kubernetes-references/</link>
+      <pubDate>Fri, 13 Jan 2023 16:45:36 +0530</pubDate>
+      <guid>http://localhost:1313/posts/posts/kubernetes-references/</guid>
+      <description>Kubernetes working https://www.ibm.com/topics/kubernetes&#xA;Docker vs Kubernetes https://www.atlassian.com/microservices/microservices-architecture/kubernetes-vs-docker&#xA;https://azure.microsoft.com/en-in/solutions/kubernetes-vs-docker/#:~:text=Kubernetes%20is%20open%2Dsource%20orchestration,containers%2C%20deployed%20across%20multiple%20servers.&#xA;Kubernetes Namespace https://www.vmware.com/topics/glossary/content/kubernetes-namespace.html#:~:text=Namespaces%20are%20a%20way%20to,to%20communicate%20with%20each%20other.&#xA;Kubectl https://kubernetes.io/docs/reference/kubectl/#in-cluster-authentication-and-namespace-overrides</description>
+    </item>
+    <item>
+      <title>Docker References</title>
+      <link>http://localhost:1313/posts/posts/docker-references/</link>
+      <pubDate>Thu, 12 Jan 2023 17:28:43 +0530</pubDate>
+      <guid>http://localhost:1313/posts/posts/docker-references/</guid>
+      <description>What are layers in docker image? https://www.howtogeek.com/devops/what-are-docker-image-layers/#:~:text=What%20are%20Layers%3F,don&#39;t%20affect%20the%20filesystem.&#xA;Ways of communication between docker cli and docker api Docker overview https://docs.docker.com/get-started/overview/#:~:text=The%20Docker%20client%20and%20daemon%20communicate%20using%20a%20REST%20API,of%20a%20set%20of%20containers.&#xA;Docker cheetsheat https://collabnix.com/docker-cheatsheet/&#xA;Docker tag https://www.baeldung.com/ops/docker-tag#:~:text=The%20Docker%20tag%20helps%20maintain,similar%20to%20a%20specific%20commit.</description>
+    </item>
+    <item>
+      <title>Codepush Setup for Android</title>
+      <link>http://localhost:1313/posts/posts/codepush/</link>
+      <pubDate>Thu, 17 Nov 2022 10:50:21 +0530</pubDate>
+      <guid>http://localhost:1313/posts/posts/codepush/</guid>
+      <description>Codepush is feature that allows to make changes in code on live application.&#xA;Codepush is microsoft solution to update code. Only JS code (in case of React Native). Fastest way to apply quick changes Codepush supports React Native. In Case of react native, using codepush we can make changes in JS code only. Setting up Codepush&#xA;In order to implement there are 4 broader steps.&#xA;Create app on app center. Implement SDK in project.</description>
+    </item>
+    <item>
+      <title>Destraction Quote</title>
+      <link>http://localhost:1313/posts/posts/destraction-quote/</link>
+      <pubDate>Tue, 25 Oct 2022 16:38:16 +0530</pubDate>
+      <guid>http://localhost:1313/posts/posts/destraction-quote/</guid>
+      <description>Distaction at its core is just confusion about what matters.</description>
+    </item>
+    <item>
+      <title>Refactoring variable or keyword in Vscode</title>
+      <link>http://localhost:1313/posts/posts/refactoring-var-name-in-vscode/</link>
+      <pubDate>Tue, 25 Oct 2022 12:38:08 +0530</pubDate>
+      <guid>http://localhost:1313/posts/posts/refactoring-var-name-in-vscode/</guid>
+      <description>To refactor the variable name in particular file in vscode.&#xA;Take cursor to the variable name and press f2 to change name. To see the priview where all the change will be applied press shift + f2.&#xA;Refactoring something which is not the variable name&#xA;Press command + shift + f2 Expanding the drop down you will get an option to replace. If you wanna skip some file, then you can hover over file and press cross in front of that file to skip that file from being changed.</description>
+    </item>
+    <item>
+      <title>Testing in React Native Project</title>
+      <link>http://localhost:1313/posts/posts/testing-in-react-native-project/</link>
+      <pubDate>Fri, 21 Oct 2022 08:33:45 +0530</pubDate>
+      <guid>http://localhost:1313/posts/posts/testing-in-react-native-project/</guid>
+      <description>Setup npm install --save-dev @testing-library/react-native --legacy-peer-deps Jest function Syntax -&#xA;expecte(actual).______; // where _____ you can put building method to assert further Jest Api functions General functions expect(value).toEqual(someOtherValue); expect(value).toStrictEqual(someOtherValue); expect(value).toMatch(/someRegex/); expect(someObject).toMatchObject(subsetOfObject); expect(value).toBeTruth(); expect(value).toBeFalsy(); expect(value).toBeDefined(); expect(value).toBeUndefined(); expect(value).toBeNull(); expect(value).toBeNaN(); Based on assertion made expect.assertions(3); // ensures that 3 assertion have been made in test expect.hasAssertions(); // ensures that test have at least one assertion Asserting the array You can check whether array have particular value or not.</description>
+    </item>
+    <item>
+      <title>Altriusm Quote by Dalai Lama</title>
+      <link>http://localhost:1313/posts/posts/altriusm-quote-by-dalai-lama/</link>
+      <pubDate>Thu, 20 Oct 2022 09:32:28 +0530</pubDate>
+      <guid>http://localhost:1313/posts/posts/altriusm-quote-by-dalai-lama/</guid>
+      <description>“Idealistic as it may sound, altruism should be the driving force in business, not just competition and a desire for wealth.”&#xA;&amp;ndash; Dalai Lama</description>
+    </item>
+    <item>
+      <title>Mistakes Done While Using Usestate Hook</title>
+      <link>http://localhost:1313/posts/posts/mistakes-done-while-using-usestate-hook/</link>
+      <pubDate>Wed, 19 Oct 2022 16:56:43 +0530</pubDate>
+      <guid>http://localhost:1313/posts/posts/mistakes-done-while-using-usestate-hook/</guid>
+      <description>Mistakes while using non primitve state Same reference problem When state is of non primitive type then comparison is done based on reference. So even if value is changed but reference is same then it won&amp;rsquo;t execute the render the component again. To avoid this create copy of the state the pass it to setter of state.&#xA;To avoid this&#xA;In case of object, you can create copy by using spread operator for unchanged part of state and then putting changed part to be merged with it.</description>
+    </item>
+    <item>
+      <title>Useeffect Hook in React</title>
+      <link>http://localhost:1313/posts/posts/useeffect-hook-in-react/</link>
+      <pubDate>Wed, 19 Oct 2022 16:31:43 +0530</pubDate>
+      <guid>http://localhost:1313/posts/posts/useeffect-hook-in-react/</guid>
+      <description>useEffect hook in react native is one of the very useful and most used hook, (at least for me it is ;) ). There are various versions of useEffect hook that I am going to talk about in this blog.&#xA;Without dependency Following version of useEffect runs the callback each time the component that it is used in is rendered.&#xA;Syntax -&#xA;useEffect(() =&amp;gt; { /** * some code here */ }); With dependency Following version of useEffect is executed each time depedency is changes.</description>
+    </item>
+    <item>
+      <title>Problems while setting Up React Native developer environment</title>
+      <link>http://localhost:1313/posts/posts/setting-up-react-native-env/</link>
+      <pubDate>Tue, 18 Oct 2022 18:21:01 +0530</pubDate>
+      <guid>http://localhost:1313/posts/posts/setting-up-react-native-env/</guid>
+      <description>Build failed. Failed to execute the installDebug command in android. This problem happens mainly when your virtual device is running less on memory and is trying to install new build but failing because of insufficient storage.&#xA;To solve this -&#xA;Uninstall the previous build and try running build again. Wipe the data of virtual device You can do this by going to virtual device manager. Then Click vertical ellipsis symbol. Click on option to wipe data.</description>
+    </item>
+    <item>
+      <title>Things to Know When Programming in Oop</title>
+      <link>http://localhost:1313/posts/posts/things-to-know-when-programming-in-oop/</link>
+      <pubDate>Fri, 16 Sep 2022 08:52:59 +0530</pubDate>
+      <guid>http://localhost:1313/posts/posts/things-to-know-when-programming-in-oop/</guid>
+      <description>Things to keep in mind Read the problem statement correctly&#xA;Think in the domain&#xA;Use constants instead of magic numbers&#xA;Avoid using primitives&#xA;Law of demeter ( don&amp;rsquo;t talk to friends of friends )&#xA;Avoid using static methods&#xA;Tell don&amp;rsquo;t ask rule&#xA;Structuring tests i.e. arrangement, action and assertion (3A rule)&#xA;Have richer exceptions i.e. capture data in the exceptions. Suffix exception classes with Exception&#xA;Use this to invoke method in a method if it is taking argument of the same type</description>
+    </item>
+    <item>
+      <title>Multithreading in Java</title>
+      <link>http://localhost:1313/posts/posts/multithreading-in-java/</link>
+      <pubDate>Tue, 13 Sep 2022 14:07:57 +0530</pubDate>
+      <guid>http://localhost:1313/posts/posts/multithreading-in-java/</guid>
+      <description>References Concurrency&#xA;Higher Level Concurrency Object</description>
+    </item>
+    <item>
+      <title>Exception in Java</title>
+      <link>http://localhost:1313/posts/posts/exception-in-java/</link>
+      <pubDate>Tue, 13 Sep 2022 09:03:42 +0530</pubDate>
+      <guid>http://localhost:1313/posts/posts/exception-in-java/</guid>
+      <description>Catch or Specify Requirement Types of Exeception Checked Exception E.g. Reading file whose path is given by user. Requires Catch or Specify Requirement.&#xA;Unchecked Exception Don&amp;rsquo;t requires Catch or Specify Requirement. Indication of bug present in application. If application throw this kind of exception then application logic should be changed in such way that it doesn&amp;rsquo;t cause exception. These are internal to application and application can not anticipate or recover from.</description>
+    </item>
+    <item>
+      <title>Collection Data Structure</title>
+      <link>http://localhost:1313/posts/posts/collection-data-structure/</link>
+      <pubDate>Sat, 10 Sep 2022 17:04:31 +0530</pubDate>
+      <guid>http://localhost:1313/posts/posts/collection-data-structure/</guid>
+      <description>Hierarchy Interface </description>
+    </item>
+    <item>
+      <title>How to Know Worth of Something</title>
+      <link>http://localhost:1313/posts/posts/how-to-know-worth-of-something/</link>
+      <pubDate>Sat, 10 Sep 2022 17:00:35 +0530</pubDate>
+      <guid>http://localhost:1313/posts/posts/how-to-know-worth-of-something/</guid>
+      <description>Why something is there? Thinking about why something exist, what is need of that thing gives great insights into why something is needed.&#xA;What would happen if somethign is there? This question tells about importance of that thing. What role does it play. Human nature is like it doesn&amp;rsquo;t know value of something until it is not there.</description>
+    </item>
+    <item>
+      <title>Interfaces in Java</title>
+      <link>http://localhost:1313/posts/posts/interfaces-in-java/</link>
+      <pubDate>Wed, 07 Sep 2022 12:39:26 +0530</pubDate>
+      <guid>http://localhost:1313/posts/posts/interfaces-in-java/</guid>
+      <description>In java, whenever you pass some value to some function, the type of value that you pass to that function defines the contract. As long as your the values satisfies the contract you are good to go.&#xA;Interface is good example of it. Interaface can be created to enforce some contract.&#xA;Let&amp;rsquo;s take example of payment using some payment instrument like credit card, debit card or net banking.&#xA;What contract these all should satisfy so that amount can withdrawn from these.</description>
+    </item>
+    <item>
+      <title>Abstract Class and Methods</title>
+      <link>http://localhost:1313/posts/posts/abstract-class-and-methods/</link>
+      <pubDate>Wed, 07 Sep 2022 09:14:13 +0530</pubDate>
+      <guid>http://localhost:1313/posts/posts/abstract-class-and-methods/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Enum in Java</title>
-      <link>http://prafullchvn.github.io/posts/enum-in-java/</link>
+      <link>http://localhost:1313/posts/posts/enum-in-java/</link>
       <pubDate>Tue, 06 Sep 2022 18:51:14 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/posts/enum-in-java/</guid>
-      <description>Often, in a project you have some constants that you use often. Most of the time they can be string and can have some data associated with them. In those cases, creating constant for them helps. Java provides something called enum classes.
-enum Declaration enum instance methods boolean equals(Object obj) int compareTo(Object obj) String name(Object obj) int ordinal(Objec obj) static methods Object[] values() Object valueOf(String str) Reference Enum In Java</description>
+      <guid>http://localhost:1313/posts/posts/enum-in-java/</guid>
+      <description>Often, in a project you have some constants that you use often. Most of the time they can be string and can have some data associated with them. In those cases, creating constant for them helps. Java provides something called enum classes.&#xA;enum Declaration enum instance methods boolean equals(Object obj) int compareTo(Object obj) String name(Object obj) int ordinal(Objec obj) static methods Object[] values() Object valueOf(String str) Reference Enum In Java</description>
     </item>
-    
     <item>
       <title>Surely You Are Joking Mr Feynman</title>
-      <link>http://prafullchvn.github.io/posts/surely-you-are-joking-mr-feynman/</link>
+      <link>http://localhost:1313/posts/posts/surely-you-are-joking-mr-feynman/</link>
       <pubDate>Tue, 06 Sep 2022 09:02:02 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/posts/surely-you-are-joking-mr-feynman/</guid>
-      <description>Don&amp;rsquo;t belive blindly in someone&amp;rsquo;s expertise, often people with most experience can be wrong don&amp;rsquo;t forget to have your own opinion and verify it.
-While learning something you require toolbox, it can be book, person, habit or experience.</description>
+      <guid>http://localhost:1313/posts/posts/surely-you-are-joking-mr-feynman/</guid>
+      <description>Don&amp;rsquo;t belive blindly in someone&amp;rsquo;s expertise, often people with most experience can be wrong don&amp;rsquo;t forget to have your own opinion and verify it.&#xA;While learning something you require toolbox, it can be book, person, habit or experience.</description>
     </item>
-    
     <item>
       <title>Testing Java Code Using Junit</title>
-      <link>http://prafullchvn.github.io/posts/testing-java-code-using-junit/</link>
+      <link>http://localhost:1313/posts/posts/testing-java-code-using-junit/</link>
       <pubDate>Sun, 04 Sep 2022 11:37:32 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/posts/testing-java-code-using-junit/</guid>
-      <description>Conecpts Container
-A node in test tree that contains other tests or container
-Test
-A method in test tree that checks the assertion.
-Life Cycle methods
-Methods which are executed at particular moment of execution of tree node. Generall they are marked using @BeforeEach, @AfterEach, @BeforeAll and @AfterAll.
-Test Class
-Any top-level class, static member class or nested class that contains at least one method i.e. container. Test classes must not be abstract and must have a single constructor.</description>
+      <guid>http://localhost:1313/posts/posts/testing-java-code-using-junit/</guid>
+      <description>Conecpts Container&#xA;A node in test tree that contains other tests or container&#xA;Test&#xA;A method in test tree that checks the assertion.&#xA;Life Cycle methods&#xA;Methods which are executed at particular moment of execution of tree node. Generall they are marked using @BeforeEach, @AfterEach, @BeforeAll and @AfterAll.&#xA;Test Class&#xA;Any top-level class, static member class or nested class that contains at least one method i.e. container. Test classes must not be abstract and must have a single constructor.</description>
     </item>
-    
     <item>
       <title>Separating Src and Class Files in Java</title>
-      <link>http://prafullchvn.github.io/posts/separating-src-and-class-files-in-java/</link>
+      <link>http://localhost:1313/posts/posts/separating-src-and-class-files-in-java/</link>
       <pubDate>Sat, 03 Sep 2022 15:54:33 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/posts/separating-src-and-class-files-in-java/</guid>
-      <description>src directory It is directory where all the .java file are stored. Generally in structure which your package should follow.
-out directory It is directory where all the .class file are stored. It also follows structure of package.
-Example
-├── out │ └── com │ └── tw │ └── step │ └── graphics │ ├── Canvas.class │ ├── ShapesMain.class │ └── shapes │ ├── Circle.class │ └── Rectangle.class ├── shapes.jar └── src └── com └── tw └── step └── graphics ├── Canvas.</description>
+      <guid>http://localhost:1313/posts/posts/separating-src-and-class-files-in-java/</guid>
+      <description>src directory It is directory where all the .java file are stored. Generally in structure which your package should follow.&#xA;out directory It is directory where all the .class file are stored. It also follows structure of package.&#xA;Example&#xA;├── out │ └── com │ └── tw │ └── step │ └── graphics │ ├── Canvas.class │ ├── ShapesMain.class │ └── shapes │ ├── Circle.class │ └── Rectangle.class ├── shapes.jar └── src └── com └── tw └── step └── graphics ├── Canvas.</description>
     </item>
-    
     <item>
       <title>Jar Files in Java</title>
-      <link>http://prafullchvn.github.io/posts/jar-files-in-java/</link>
+      <link>http://localhost:1313/posts/posts/jar-files-in-java/</link>
       <pubDate>Sat, 03 Sep 2022 15:18:53 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/posts/jar-files-in-java/</guid>
-      <description>JAR file (Java Archive) JAR file is used to bundle the software files. This makes it easier to send across the devices and run it without hussle.
-Syntax jar {ctxui}[vfmn0PMe] [jar-file] [manifest-file] [entry-point] [-C dir] files ... Options c : Create jar file. t : Print content of jar file. C : Change to specified directory. e : To indicate that entry point is mensioned in command. x : To extract the files from jar file.</description>
+      <guid>http://localhost:1313/posts/posts/jar-files-in-java/</guid>
+      <description>JAR file (Java Archive) JAR file is used to bundle the software files. This makes it easier to send across the devices and run it without hussle.&#xA;Syntax jar {ctxui}[vfmn0PMe] [jar-file] [manifest-file] [entry-point] [-C dir] files ... Options c : Create jar file. t : Print content of jar file. C : Change to specified directory. e : To indicate that entry point is mensioned in command. x : To extract the files from jar file.</description>
     </item>
-    
     <item>
       <title>Packages in Java</title>
-      <link>http://prafullchvn.github.io/posts/packages-in-java/</link>
+      <link>http://localhost:1313/posts/posts/packages-in-java/</link>
       <pubDate>Sat, 03 Sep 2022 11:27:21 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/posts/packages-in-java/</guid>
-      <description>Package Package is group of related types.
-Types here mean
-classes interfaces E.g. java.lang is package with basec classes of java, java.io is package with reading and writing classes
-Creating package First, you have to decide on package name. You have to mension package name in each file which is to be included in that package.
-package com.example.className; It must be first line of file. Each file can belong to only one package which means we can&amp;rsquo;t write above line more than once in file.</description>
+      <guid>http://localhost:1313/posts/posts/packages-in-java/</guid>
+      <description>Package Package is group of related types.&#xA;Types here mean&#xA;classes interfaces E.g. java.lang is package with basec classes of java, java.io is package with reading and writing classes&#xA;Creating package First, you have to decide on package name. You have to mension package name in each file which is to be included in that package.&#xA;package com.example.className; It must be first line of file. Each file can belong to only one package which means we can&amp;rsquo;t write above line more than once in file.</description>
     </item>
-    
     <item>
       <title>Debugging in Chrome</title>
-      <link>http://prafullchvn.github.io/posts/debugging-in-chrome/</link>
+      <link>http://localhost:1313/posts/posts/debugging-in-chrome/</link>
       <pubDate>Thu, 01 Sep 2022 18:38:52 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/posts/debugging-in-chrome/</guid>
-      <description>How to debug in chrome? Most obvious answer will be console.log. But writing console.log all over the places can get messy.
-But there are some easy ways to do that.
-Live Expression Open DevTools &amp;gt; Go to console tab &amp;gt; click on eye like symbol
-Type expressin that you wanna watch. This expression will be maintained for all the site you visit. Instead of flooding your console it will show the live value.</description>
+      <guid>http://localhost:1313/posts/posts/debugging-in-chrome/</guid>
+      <description>How to debug in chrome? Most obvious answer will be console.log. But writing console.log all over the places can get messy.&#xA;But there are some easy ways to do that.&#xA;Live Expression Open DevTools &amp;gt; Go to console tab &amp;gt; click on eye like symbol&#xA;Type expressin that you wanna watch. This expression will be maintained for all the site you visit. Instead of flooding your console it will show the live value.</description>
     </item>
-    
     <item>
       <title>Isolation Property</title>
-      <link>http://prafullchvn.github.io/posts/isolation-property/</link>
+      <link>http://localhost:1313/posts/posts/isolation-property/</link>
       <pubDate>Thu, 01 Sep 2022 17:48:22 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/posts/isolation-property/</guid>
-      <description>z-index Z index is used to push the element to behind some other element on HTML page.
-Syntax :
-z-index: &amp;lt;number&amp;gt;; But z-index by default pushed it to the back of element with respect to whole document.
-But sometime this is not case. We want to push the element to back in particular group of elements and not with respect to document elements.
-So in that case you can use isolation property on parent element to isolate it from other element in document and then you can put z-index on it.</description>
+      <guid>http://localhost:1313/posts/posts/isolation-property/</guid>
+      <description>z-index Z index is used to push the element to behind some other element on HTML page.&#xA;Syntax :&#xA;z-index: &amp;lt;number&amp;gt;; But z-index by default pushed it to the back of element with respect to whole document.&#xA;But sometime this is not case. We want to push the element to back in particular group of elements and not with respect to document elements.&#xA;So in that case you can use isolation property on parent element to isolate it from other element in document and then you can put z-index on it.</description>
     </item>
-    
     <item>
       <title>Design Paradigm</title>
-      <link>http://prafullchvn.github.io/posts/design-paradigm/</link>
+      <link>http://localhost:1313/posts/posts/design-paradigm/</link>
       <pubDate>Sat, 27 Aug 2022 17:54:59 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/posts/design-paradigm/</guid>
+      <guid>http://localhost:1313/posts/posts/design-paradigm/</guid>
       <description>I have always had problem with finding the right way to make data and UI interact. There are many front end framework that makes this problem easier like React, Angular, vue etc. But I always wanted to discover pattern myself to solve this problem. That pattern should be elegant enough to solve this problem but should make it easier to add new problem.</description>
     </item>
-    
     <item>
       <title>First Post</title>
-      <link>http://prafullchvn.github.io/posts/first-post/</link>
+      <link>http://localhost:1313/posts/posts/first-post/</link>
       <pubDate>Sat, 27 Aug 2022 17:21:38 +0530</pubDate>
-      
-      <guid>http://prafullchvn.github.io/posts/first-post/</guid>
+      <guid>http://localhost:1313/posts/posts/first-post/</guid>
       <description>My favorite quote It is always impossible until it is done. - Nelson Mandela</description>
     </item>
-    
   </channel>
 </rss>

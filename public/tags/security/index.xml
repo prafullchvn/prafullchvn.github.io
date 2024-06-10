@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security on Welcome to Prafull&#39;s blog</title>
+    <link>http://localhost:1313/posts/tags/security/</link>
+    <description>Recent content in Security on Welcome to Prafull&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 02 Apr 2024 16:25:46 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Security concepts using springboot</title>
+      <link>http://localhost:1313/posts/springboot/security_concepts_using_springboot/</link>
+      <pubDate>Tue, 02 Apr 2024 16:25:46 +0530</pubDate>
+      <guid>http://localhost:1313/posts/springboot/security_concepts_using_springboot/</guid>
+      <description>Security Concepts using Spring Boot There are many ways to secure your application using spring boot. Some of the ways are as follows:&#xA;Basic Authentication &amp;amp; Authorization OAuth2 JWT CORS &amp;amp; CSRF Basic Authentication &amp;amp; Authorization Basic Authentication is the simplest way to secure your application. It is based on the username and password. It is not recommended to use this in production as it is not secure. But it is good to use in development environment.</description>
+    </item>
+  </channel>
+</rss>
