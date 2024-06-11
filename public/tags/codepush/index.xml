@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Codepush on Welcome to Prafull&#39;s blog</title>
-    <link>http://localhost:1313/posts/tags/codepush/</link>
+    <link>http://localhost:1313/tags/codepush/</link>
     <description>Recent content in Codepush on Welcome to Prafull&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 17 Nov 2022 10:50:21 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/tags/codepush/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/codepush/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Codepush Setup for Android</title>
-      <link>http://localhost:1313/posts/posts/codepush/</link>
+      <link>http://localhost:1313/posts/codepush/</link>
       <pubDate>Thu, 17 Nov 2022 10:50:21 +0530</pubDate>
-      <guid>http://localhost:1313/posts/posts/codepush/</guid>
+      <guid>http://localhost:1313/posts/codepush/</guid>
       <description>Codepush is feature that allows to make changes in code on live application.&#xA;Codepush is microsoft solution to update code. Only JS code (in case of React Native). Fastest way to apply quick changes Codepush supports React Native. In Case of react native, using codepush we can make changes in JS code only. Setting up Codepush&#xA;In order to implement there are 4 broader steps.&#xA;Create app on app center. Implement SDK in project.</description>
     </item>
   </channel>

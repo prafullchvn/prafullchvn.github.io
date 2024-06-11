@@ -2,224 +2,224 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/tags/aarch64/</loc>
+    <loc>http://localhost:1313/tags/aarch64/</loc>
     <lastmod>2024-06-09T20:44:31+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tags/colima/</loc>
+    <loc>http://localhost:1313/tags/colima/</loc>
     <lastmod>2024-06-09T20:44:31+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tags/docker/</loc>
+    <loc>http://localhost:1313/tags/docker/</loc>
     <lastmod>2024-06-09T20:44:31+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/docker/</loc>
+    <loc>http://localhost:1313/docker/</loc>
     <lastmod>2024-06-09T20:44:31+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/infrastructure-and-devops/</loc>
+    <loc>http://localhost:1313/infrastructure-and-devops/</loc>
     <lastmod>2024-06-09T20:44:31+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tags/linux/</loc>
+    <loc>http://localhost:1313/tags/linux/</loc>
     <lastmod>2024-06-09T20:44:31+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/docker/multi-arch-build-using-colima/</loc>
+    <loc>http://localhost:1313/docker/multi-arch-build-using-colima/</loc>
     <lastmod>2024-06-09T20:44:31+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/infrastructure-and-devops/building-arch64-images/</loc>
+    <loc>http://localhost:1313/infrastructure-and-devops/building-arch64-images/</loc>
     <lastmod>2024-06-09T20:44:31+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-06-09T20:44:31+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-06-09T20:44:31+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tags/security/</loc>
+    <loc>http://localhost:1313/tags/security/</loc>
     <lastmod>2024-04-02T16:25:46+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/springboot/security_concepts_using_springboot/</loc>
+    <loc>http://localhost:1313/springboot/security_concepts_using_springboot/</loc>
     <lastmod>2024-04-02T16:25:46+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tags/springboot/</loc>
+    <loc>http://localhost:1313/tags/springboot/</loc>
     <lastmod>2024-04-02T16:25:46+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/springboot/</loc>
+    <loc>http://localhost:1313/springboot/</loc>
     <lastmod>2024-04-02T16:25:46+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tags/kafka/</loc>
+    <loc>http://localhost:1313/tags/kafka/</loc>
     <lastmod>2024-02-03T08:33:43+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/springboot/springboot-and-kafka/</loc>
+    <loc>http://localhost:1313/springboot/springboot-and-kafka/</loc>
     <lastmod>2024-02-03T08:33:43+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/infrastructure-and-devops/volumes-in-docker/</loc>
+    <loc>http://localhost:1313/infrastructure-and-devops/volumes-in-docker/</loc>
     <lastmod>2023-02-27T08:58:46+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/infrastructure-and-devops/docker-basics/</loc>
+    <loc>http://localhost:1313/infrastructure-and-devops/docker-basics/</loc>
     <lastmod>2023-02-26T17:19:46+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/infrastructure-and-devops/resource-acronyms-in-k8/</loc>
+    <loc>http://localhost:1313/infrastructure-and-devops/resource-acronyms-in-k8/</loc>
     <lastmod>2023-02-24T15:56:17+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/infrastructure-and-devops/k9s-shortcuts/</loc>
+    <loc>http://localhost:1313/infrastructure-and-devops/k9s-shortcuts/</loc>
     <lastmod>2023-02-24T15:29:34+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/infrastructure-and-devops/intro-to-helm/</loc>
+    <loc>http://localhost:1313/infrastructure-and-devops/intro-to-helm/</loc>
     <lastmod>2023-02-24T09:05:31+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/infrastructure-and-devops/workspaces-in-terraform/</loc>
+    <loc>http://localhost:1313/infrastructure-and-devops/workspaces-in-terraform/</loc>
     <lastmod>2023-02-22T16:17:28+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/infrastructure-and-devops/modules-in-terraform/</loc>
+    <loc>http://localhost:1313/infrastructure-and-devops/modules-in-terraform/</loc>
     <lastmod>2023-02-22T08:34:41+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/infrastructure-and-devops/implicit-and-explicit-dependency-in-terraform/</loc>
+    <loc>http://localhost:1313/infrastructure-and-devops/implicit-and-explicit-dependency-in-terraform/</loc>
     <lastmod>2023-02-22T08:33:07+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/infrastructure-and-devops/attributes-and-output-values/</loc>
+    <loc>http://localhost:1313/infrastructure-and-devops/attributes-and-output-values/</loc>
     <lastmod>2023-02-17T08:57:30+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/infrastructure-and-devops/desired-state-and-current-state/</loc>
+    <loc>http://localhost:1313/infrastructure-and-devops/desired-state-and-current-state/</loc>
     <lastmod>2023-02-17T08:45:49+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/infrastructure-and-devops/tf-state-file/</loc>
+    <loc>http://localhost:1313/infrastructure-and-devops/tf-state-file/</loc>
     <lastmod>2023-02-17T08:32:10+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/infrastructure-and-devops/authenticate-with-gitlab-in-tf/</loc>
+    <loc>http://localhost:1313/infrastructure-and-devops/authenticate-with-gitlab-in-tf/</loc>
     <lastmod>2023-02-17T08:23:58+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/infrastructure-and-devops/provider-in-tf/</loc>
+    <loc>http://localhost:1313/infrastructure-and-devops/provider-in-tf/</loc>
     <lastmod>2023-02-17T08:19:09+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/infrastructure-and-devops/nodeport-service-in-k8/</loc>
+    <loc>http://localhost:1313/infrastructure-and-devops/nodeport-service-in-k8/</loc>
     <lastmod>2023-02-08T15:51:55+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/infrastructure-and-devops/functions-in-gitlab/</loc>
+    <loc>http://localhost:1313/infrastructure-and-devops/functions-in-gitlab/</loc>
     <lastmod>2023-02-08T10:41:29+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/infrastructure-and-devops/stages-in-gitlab-pipeline/</loc>
+    <loc>http://localhost:1313/infrastructure-and-devops/stages-in-gitlab-pipeline/</loc>
     <lastmod>2023-02-08T09:58:26+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/infrastructure-and-devops/yaml-in-kubernetes/</loc>
+    <loc>http://localhost:1313/infrastructure-and-devops/yaml-in-kubernetes/</loc>
     <lastmod>2023-02-06T15:43:13+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts/kubernetes-references/</loc>
+    <loc>http://localhost:1313/posts/kubernetes-references/</loc>
     <lastmod>2023-01-13T16:45:36+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2023-01-13T16:45:36+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts/docker-references/</loc>
+    <loc>http://localhost:1313/posts/docker-references/</loc>
     <lastmod>2023-01-12T17:28:43+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tags/codepush/</loc>
+    <loc>http://localhost:1313/tags/codepush/</loc>
     <lastmod>2022-11-17T10:50:21+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts/codepush/</loc>
+    <loc>http://localhost:1313/posts/codepush/</loc>
     <lastmod>2022-11-17T10:50:21+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tags/react-native/</loc>
+    <loc>http://localhost:1313/tags/react-native/</loc>
     <lastmod>2022-11-17T10:50:21+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts/destraction-quote/</loc>
+    <loc>http://localhost:1313/posts/destraction-quote/</loc>
     <lastmod>2022-10-25T16:38:16+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tags/quote/</loc>
+    <loc>http://localhost:1313/tags/quote/</loc>
     <lastmod>2022-10-25T16:38:16+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts/refactoring-var-name-in-vscode/</loc>
+    <loc>http://localhost:1313/posts/refactoring-var-name-in-vscode/</loc>
     <lastmod>2022-10-25T12:38:08+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tags/vscode/</loc>
+    <loc>http://localhost:1313/tags/vscode/</loc>
     <lastmod>2022-10-25T12:38:08+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts/testing-in-react-native-project/</loc>
+    <loc>http://localhost:1313/posts/testing-in-react-native-project/</loc>
     <lastmod>2022-10-21T08:33:45+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts/altriusm-quote-by-dalai-lama/</loc>
+    <loc>http://localhost:1313/posts/altriusm-quote-by-dalai-lama/</loc>
     <lastmod>2022-10-20T09:32:28+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts/mistakes-done-while-using-usestate-hook/</loc>
+    <loc>http://localhost:1313/posts/mistakes-done-while-using-usestate-hook/</loc>
     <lastmod>2022-10-19T16:56:43+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tags/react/</loc>
+    <loc>http://localhost:1313/tags/react/</loc>
     <lastmod>2022-10-19T16:56:43+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts/useeffect-hook-in-react/</loc>
+    <loc>http://localhost:1313/posts/useeffect-hook-in-react/</loc>
     <lastmod>2022-10-19T16:31:43+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts/setting-up-react-native-env/</loc>
+    <loc>http://localhost:1313/posts/setting-up-react-native-env/</loc>
     <lastmod>2022-10-18T18:21:01+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts/things-to-know-when-programming-in-oop/</loc>
+    <loc>http://localhost:1313/posts/things-to-know-when-programming-in-oop/</loc>
     <lastmod>2022-09-16T08:52:59+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts/multithreading-in-java/</loc>
+    <loc>http://localhost:1313/posts/multithreading-in-java/</loc>
     <lastmod>2022-09-13T14:07:57+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts/exception-in-java/</loc>
+    <loc>http://localhost:1313/posts/exception-in-java/</loc>
     <lastmod>2022-09-13T09:03:42+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts/collection-data-structure/</loc>
+    <loc>http://localhost:1313/posts/collection-data-structure/</loc>
     <lastmod>2022-09-10T17:04:31+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts/how-to-know-worth-of-something/</loc>
+    <loc>http://localhost:1313/posts/how-to-know-worth-of-something/</loc>
     <lastmod>2022-09-10T17:00:35+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tags/life/</loc>
+    <loc>http://localhost:1313/tags/life/</loc>
     <lastmod>2022-09-10T17:00:35+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts/interfaces-in-java/</loc>
+    <loc>http://localhost:1313/posts/interfaces-in-java/</loc>
     <lastmod>2022-09-07T12:39:26+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tags/java/</loc>
+    <loc>http://localhost:1313/tags/java/</loc>
     <lastmod>2022-09-07T12:39:26+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts/abstract-class-and-methods/</loc>
+    <loc>http://localhost:1313/posts/abstract-class-and-methods/</loc>
     <lastmod>2022-09-07T09:14:13+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts/enum-in-java/</loc>
+    <loc>http://localhost:1313/posts/enum-in-java/</loc>
     <lastmod>2022-09-06T18:51:14+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts/surely-you-are-joking-mr-feynman/</loc>
+    <loc>http://localhost:1313/posts/surely-you-are-joking-mr-feynman/</loc>
     <lastmod>2022-09-06T09:02:02+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts/testing-java-code-using-junit/</loc>
+    <loc>http://localhost:1313/posts/testing-java-code-using-junit/</loc>
     <lastmod>2022-09-04T11:37:32+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts/separating-src-and-class-files-in-java/</loc>
+    <loc>http://localhost:1313/posts/separating-src-and-class-files-in-java/</loc>
     <lastmod>2022-09-03T15:54:33+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts/jar-files-in-java/</loc>
+    <loc>http://localhost:1313/posts/jar-files-in-java/</loc>
     <lastmod>2022-09-03T15:18:53+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts/packages-in-java/</loc>
+    <loc>http://localhost:1313/posts/packages-in-java/</loc>
     <lastmod>2022-09-03T11:27:21+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tags/debugging/</loc>
+    <loc>http://localhost:1313/tags/debugging/</loc>
     <lastmod>2022-09-01T18:38:52+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts/debugging-in-chrome/</loc>
+    <loc>http://localhost:1313/posts/debugging-in-chrome/</loc>
     <lastmod>2022-09-01T18:38:52+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tags/css/</loc>
+    <loc>http://localhost:1313/tags/css/</loc>
     <lastmod>2022-09-01T17:48:22+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts/isolation-property/</loc>
+    <loc>http://localhost:1313/posts/isolation-property/</loc>
     <lastmod>2022-09-01T17:48:22+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tags/z-index/</loc>
+    <loc>http://localhost:1313/tags/z-index/</loc>
     <lastmod>2022-09-01T17:48:22+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts/design-paradigm/</loc>
+    <loc>http://localhost:1313/posts/design-paradigm/</loc>
     <lastmod>2022-08-27T17:54:59+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tags/ui/ux/</loc>
+    <loc>http://localhost:1313/tags/ui/ux/</loc>
     <lastmod>2022-08-27T17:54:59+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts/first-post/</loc>
+    <loc>http://localhost:1313/posts/first-post/</loc>
     <lastmod>2022-08-27T17:21:38+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/series/</loc>
+    <loc>http://localhost:1313/series/</loc>
   </url>
 </urlset>

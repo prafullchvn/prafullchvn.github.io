@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Springboot on Welcome to Prafull&#39;s blog</title>
-    <link>http://localhost:1313/posts/tags/springboot/</link>
+    <link>http://localhost:1313/tags/springboot/</link>
     <description>Recent content in Springboot on Welcome to Prafull&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 02 Apr 2024 16:25:46 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/tags/springboot/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/springboot/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Security concepts using springboot</title>
-      <link>http://localhost:1313/posts/springboot/security_concepts_using_springboot/</link>
+      <link>http://localhost:1313/springboot/security_concepts_using_springboot/</link>
       <pubDate>Tue, 02 Apr 2024 16:25:46 +0530</pubDate>
-      <guid>http://localhost:1313/posts/springboot/security_concepts_using_springboot/</guid>
+      <guid>http://localhost:1313/springboot/security_concepts_using_springboot/</guid>
       <description>Security Concepts using Spring Boot There are many ways to secure your application using spring boot. Some of the ways are as follows:&#xA;Basic Authentication &amp;amp; Authorization OAuth2 JWT CORS &amp;amp; CSRF Basic Authentication &amp;amp; Authorization Basic Authentication is the simplest way to secure your application. It is based on the username and password. It is not recommended to use this in production as it is not secure. But it is good to use in development environment.</description>
     </item>
     <item>
       <title>Springboot and Kafka</title>
-      <link>http://localhost:1313/posts/springboot/springboot-and-kafka/</link>
+      <link>http://localhost:1313/springboot/springboot-and-kafka/</link>
       <pubDate>Sat, 03 Feb 2024 08:33:43 +0530</pubDate>
-      <guid>http://localhost:1313/posts/springboot/springboot-and-kafka/</guid>
+      <guid>http://localhost:1313/springboot/springboot-and-kafka/</guid>
       <description>As part of this article, we will see how to integrate Kafka with Springboot. You should at least know basics of Springboot and Kafka concepts.&#xA;Let&amp;rsquo;s start with what is kafka.&#xA;Kafka is event streaming platform. It is used for building real-time data pipelines and streaming applications. It is horizontally scalable, fault-tolerant, and extremely fast. It is used for building real-time data pipelines and streaming applications. It is horizontally scalable, fault-tolerant, and extremely fast.</description>
     </item>
   </channel>

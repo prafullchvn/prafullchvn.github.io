@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docker on Welcome to Prafull&#39;s blog</title>
-    <link>http://localhost:1313/posts/tags/docker/</link>
+    <link>http://localhost:1313/tags/docker/</link>
     <description>Recent content in Docker on Welcome to Prafull&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 09 Jun 2024 20:44:31 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Multi architecture management in Colima</title>
-      <link>http://localhost:1313/posts/docker/multi-arch-build-using-colima/</link>
+      <link>http://localhost:1313/docker/multi-arch-build-using-colima/</link>
       <pubDate>Sun, 09 Jun 2024 20:44:31 +0530</pubDate>
-      <guid>http://localhost:1313/posts/docker/multi-arch-build-using-colima/</guid>
+      <guid>http://localhost:1313/docker/multi-arch-build-using-colima/</guid>
       <description>Multi-profiles management One of the most exciting Colima features is instances management. To do so, Colima is using profiles.&#xA;To create an instance with a profile name, add the -p flag to the command line. For example, colima start -p funny_profile will create a default instance withfunny_profileas profile name.colima start -p intel -a x86_64 -c 1will start an intel instance with 1 CPU using theintelname.&#xA;You can retrieve your current profiles by running colima list.</description>
     </item>
     <item>
       <title>Multi architecture management in Colima</title>
-      <link>http://localhost:1313/posts/infrastructure-and-devops/building-arch64-images/</link>
+      <link>http://localhost:1313/infrastructure-and-devops/building-arch64-images/</link>
       <pubDate>Sun, 09 Jun 2024 20:44:31 +0530</pubDate>
-      <guid>http://localhost:1313/posts/infrastructure-and-devops/building-arch64-images/</guid>
+      <guid>http://localhost:1313/infrastructure-and-devops/building-arch64-images/</guid>
       <description>Multi-profiles management One of the most exciting Colima features is instances management. To do so, Colima is using profiles.&#xA;To create an instance with a profile name, add the -p flag to the command line. For example, colima start -p funny_profile will create a default instance withfunny_profileas profile name.colima start -p intel -a x86_64 -c 1will start an intel instance with 1 CPU using theintelname.&#xA;You can retrieve your current profiles by running colima list.</description>
     </item>
   </channel>
