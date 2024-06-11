@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>UI/UX on Welcome to Prafull&#39;s blog</title>
-    <link>http://localhost:1313/posts/tags/ui/ux/</link>
+    <link>http://localhost:1313/tags/ui/ux/</link>
     <description>Recent content in UI/UX on Welcome to Prafull&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 27 Aug 2022 17:54:59 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/tags/ui/ux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/ui/ux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Design Paradigm</title>
-      <link>http://localhost:1313/posts/posts/design-paradigm/</link>
+      <link>http://localhost:1313/posts/design-paradigm/</link>
       <pubDate>Sat, 27 Aug 2022 17:54:59 +0530</pubDate>
-      <guid>http://localhost:1313/posts/posts/design-paradigm/</guid>
+      <guid>http://localhost:1313/posts/design-paradigm/</guid>
       <description>I have always had problem with finding the right way to make data and UI interact. There are many front end framework that makes this problem easier like React, Angular, vue etc. But I always wanted to discover pattern myself to solve this problem. That pattern should be elegant enough to solve this problem but should make it easier to add new problem.</description>
     </item>
   </channel>
